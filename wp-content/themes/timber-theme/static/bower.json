@@ -1,0 +1,39 @@
+{
+  "name": "Jules",
+  "description": "Bower packages for timber theme",
+  "authors": [
+    "Catcoder <waikeat.wong90@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "foundation-sites": "^6.2.2"
+  },
+  "overrides": {
+    "foundation-sites": {
+      "main": [
+        "./scss/foundation.scss",
+        "./dist/foundation.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/fontawesome-webfont.eot",
+        "./fonts/fontawesome-webfont.svg",
+        "./fonts/fontawesome-webfont.ttf",
+        "./fonts/fontawesome-webfont.woff",
+        "./fonts/fontawesome-webfont.woff2"
+      ]
+    }
+  }
+}
